@@ -15,6 +15,6 @@ export const fetchNews = async (query) => {
     return await response.json();
   } catch (error) {
     console.error('Error fetching the news:', error);
-    throw error; // Re-throw the error to handle it in your components
+    throw error; 
   }
 };
